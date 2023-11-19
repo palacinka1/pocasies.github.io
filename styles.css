@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fefefe;
+}
+
+.weather-widget {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.weather-widget:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h2 {
+    color: #333;
+}
+.location{
+    font-size: 2rem;
+}

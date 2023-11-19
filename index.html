@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Počasí Sofi a Emily</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="weather-widget" id="prague-weather">
+    <h2>Sofi</h2>
+    <div class="weather-info">
+        <em id="" class="mesto">Praha</em>
+        <p id="prague-location" class="location">Načítání...</p>
+        <p id="prague-temperature" class="temperature">Načítání...</p>
+        <p id="prague-region" class="region">Načítání...</p>
+    </div>
+</div>
+
+<div class="weather-widget" id="sokolov-weather">
+    <h2>Emily</h2>
+    <div class="weather-info">
+        <em id="" class="mesto">Sokolov</em>
+        <p id="sokolov-location" class="location">Načítání...</p>
+        <p id="sokolov-temperature" class="temperature">Načítání...</p>
+        <p id="sokolov-region" class="region">Načítání...</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+    twemoji.parse(document.body);
+</script>
+</body>
+</html>
